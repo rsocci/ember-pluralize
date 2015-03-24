@@ -1,9 +1,28 @@
 # H-pluralize
+[![Build
+Status](https://travis-ci.org/rsocci/ember-pluralize.svg)](https://travis-ci.org/rsocci/ember-pluralize)
 
-This README outlines the details of collaborating on this Ember addon.
+Word pluralizer based on count.
 
 ## Installation
 
+`ember install:addon ember-pluralize`
+
+## Usage
+
+```hbs
+{{h-pluralize 2 "dancing penguins"}} {{! => 2 dancing penguins}}
+{{h-pluralize 3 "octopus"}} {{! => 3 octopi}}
+```
+
+Pass `omitCount=true` option to print the pluralized word without the
+count.
+
+```hbs
+{{h-pluralize 5 "hamster" omitCount=true}} {{! => hamsters}}
+```
+
+## Development
 * `git clone` this repository
 * `npm install`
 * `bower install`

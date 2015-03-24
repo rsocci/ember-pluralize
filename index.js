@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-h-pluralize'
+  name: 'ember-pluralize'
 };

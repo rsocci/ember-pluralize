@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-h-pluralize",
+  "name": "ember-pluralize",
   "dependencies": {
     "jquery": "^1.11.1",
     "ember": "1.10.0",

@@ -1,7 +1,7 @@
 {
   "name": "ember-pluralize",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An addon for pluralizing words based on given count",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/rsocci/ember-pluralize.git",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Romina Vargas",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",

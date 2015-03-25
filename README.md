@@ -6,6 +6,10 @@ Word pluralizer based on count.
 
 ## Installation
 
+`npm install ember-pluralize --save-dev`
+
+with ember-cli:
+
 `ember install:addon ember-pluralize`
 
 ## Usage

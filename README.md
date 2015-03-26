@@ -1,4 +1,4 @@
-# H-pluralize
+# ember-pluralize
 [![Build
 Status](https://travis-ci.org/rsocci/ember-pluralize.svg)](https://travis-ci.org/rsocci/ember-pluralize)
 

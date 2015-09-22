@@ -10,20 +10,20 @@ Word pluralizer based on count.
 
 with ember-cli:
 
-`ember install:addon ember-pluralize`
+`ember install ember-pluralize`
 
 ## Usage
 
 ```hbs
-{{h-pluralize 2 "dancing penguins"}} {{! => 2 dancing penguins}}
-{{h-pluralize 3 "octopus"}} {{! => 3 octopi}}
+{{pluralize-word 2 "dancing penguins"}} {{! => 2 dancing penguins}}
+{{pluralize-word 3 "octopus"}} {{! => 3 octopi}}
 ```
 
 Pass `omitCount=true` option to print the pluralized word without the
 count.
 
 ```hbs
-{{h-pluralize 5 "hamster" omitCount=true}} {{! => hamsters}}
+{{pluralize-word 5 "hamster" omitCount=true}} {{! => hamsters}}
 ```
 
 ## Development

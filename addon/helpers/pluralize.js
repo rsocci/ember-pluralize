@@ -1,8 +1,9 @@
 import Ember from 'ember';
 var pluralize = Ember.String.pluralize;
 
-function hPluralize(count, word, options) {
-  var omitCount = options && options.hash.omitCount;
+export default function(params, options) {
+  let [count, word] = params;
+  const { omitCount } = options;
 
   if (count !== 1) {
     count = count || 0;
@@ -11,7 +12,3 @@ function hPluralize(count, word, options) {
 
   return (omitCount ? '' : count + ' ') + word;
 }
-
-export { hPluralize };
-
-export default Ember.Handlebars.makeBoundHelper(hPluralize);

@@ -1,6 +1,6 @@
 # ember-pluralize
 [![Build
-Status](https://travis-ci.org/rsocci/ember-pluralize.svg)](https://travis-ci.org/rsocci/ember-pluralize)
+Status](https://travis-ci.org/rsocci/ember-pluralize.svg?branch=master)](https://travis-ci.org/rsocci/ember-pluralize)
 
 Word pluralizer based on count.
 

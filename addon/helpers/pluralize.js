@@ -1,5 +1,4 @@
-import Ember from 'ember';
-var pluralize = Ember.String.pluralize;
+import { pluralize } from 'ember-inflector';
 
 export default function(params, options) {
   let [count, word] = params;

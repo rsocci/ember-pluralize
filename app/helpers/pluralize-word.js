@@ -1,4 +1,4 @@
-import Ember from 'ember';
 import pluralize from 'ember-pluralize/helpers/pluralize';
+import { helper as buildHelper } from '@ember/component/helper';
 
-export default Ember.Helper.helper(pluralize);
+export default buildHelper(pluralize);
